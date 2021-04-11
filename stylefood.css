@@ -1,0 +1,181 @@
+.navbar-brand{
+    font-family: Viga;
+    font-size: 32px;
+}
+.nav-link{
+    text-transform: uppercase;
+    font-family: Viga;
+}
+.jumbotron{
+    background-image: url(img/image12.jpg);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+.jumbotron .text-jumbotron{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-family: Viga;
+}
+.text-jumbotron .display-4 span{
+    color: orange;
+    font-weight: 500;
+}
+.menu{
+    background-color:white;
+    font-family: Viga;
+}
+.welcome .col-sm-4{
+    font-family: Viga;
+    margin-top: 10%;
+}
+.welcome h2 span{
+    color: orange;
+    font-style: italic;
+    float: left;
+}
+/*serve*/
+.serve1{
+    font-family: Viga;
+}
+.serve1 h1 span{
+    color: orange;
+    font-style: italic;
+}
+.row span{
+    color: orange;
+    float: right;
+}
+.card{
+    border: none;
+    background-color:rgb(245, 245, 245);
+}
+.jumbotron2 {
+    background-image: url(img/imagebuah.jpg);
+    font-family: Viga;
+    background-size: cover;
+    height: 800px;
+    overflow: hidden;
+    
+}
+.jumbotron2 .text-jumbotron2{
+    margin-top: 400px;
+    margin-right: 20px;
+    text-align: center;
+    color:white;
+}
+/*deshes*/
+.deshes{
+    font-family: Viga;
+}
+.deshes .text-deshes{
+    margin-top: 15%;
+    text-align: center;
+}
+.deshes span{
+    color: orange;
+}
+.deshes small{
+    font-style: italic;
+}
+.deshes .col-sm-6 span{
+    float: left;
+    color: orange;
+}
+/* customer says */
+.customer-says{
+    font-family: Viga;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.customer-says .carousel{
+    margin-left: 25%;
+    width: 50%;
+}
+/*food updates*/
+.food-updates{
+    font-family: Viga;
+}
+.food-updates .text-foods{
+    text-align: center;
+    margin-top: 10%;
+}
+.food-updates .calender{
+    color: orange;
+    float: right;
+}
+/*book a table*/
+.jumbotron4{
+    background-image: url(img/imagebuah.jpg);
+    background-size: cover;
+    height: 600px;
+    font-family: Viga;
+    overflow: hidden;
+}
+.jumbotron4 .text-jumbotron4{
+    margin-top: 23%;
+    color: white;
+    text-align: center;
+}
+.text-jumbotron4 span{
+    color: orange;
+}
+.jumbotron4 .form-group{
+    width: 50%;
+    margin-top: 3%;
+    display: flex;
+    margin-left: 25%;
+}
+/*footer*/
+.jumbotron5{
+    margin-top: 4%;
+    background-color: rgba(0, 0, 0, 0.774);
+    background-size: cover;
+    height: 600px;
+    overflow: hidden;
+    color: black;
+}
+.box{
+    margin-top: 80%;
+    text-align: left;
+    font-family: Viga;
+}
+.contact {
+    margin-top: 46%;
+    font-family: Viga;
+    font-size: medium;
+}
+.Opening-hours{
+    margin-top: 59%;
+    font-family: Viga;
+}
+/*bottom*/
+.bottom{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family: Viga;
+}
+.bottom .bottom-right{
+    display: flex;
+}
+@media (min-width: 992px) {
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid black;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .jumbotron{
+        height: 1000px;
+    }
+    .jumbotron .text-jumbotron{
+        margin-top: 40px;
+    }
+}
